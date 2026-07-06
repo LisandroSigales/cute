@@ -8,7 +8,7 @@
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.css" />
-    
+
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -31,6 +31,9 @@
             </div>
         </div>
     </header>
+    <div class="espacioheader">
+        
+    </div>
     <div id="bannerCarousel" class="f-carousel">
 
         <div class="f-carousel__slide">
@@ -49,27 +52,152 @@
                 <img src="Img/Banner Dark.png" alt="Edición Creppy">
             </a>
         </div>
-        
+
     </div>
 
     <div class="galeria-home">
-        <div class="logo-volador"> 
+        <div class="logo-volador">
             <img src="Img/Logo-flor.png" alt="logo cute! con flores" class="logo-flor">
         </div>
-       
-        <div class="nuevos">
 
+        <div class="nuevos">
+            <h2 class="nuevostitulo">¡Nuevos!</h2>
+            <div class="imagenesnuevos">
+                <a href="tienda.html">
+                    <img src="Img/murcielago.png" alt="Muñeco de murcielago" class="nuevo1">
+                </a>
+                <a href="tienda.html">
+                    <img src="Img/pin pez.png" alt="Pin de pez" class="nuevo2">
+                </a>
+                <a href="tienda.html">
+                    <img src="Img/moño negro.png" alt="Moño negro" class="nuevo3">
+                </a>
+                <a href="tienda.html">
+                    <img src="Img/huesitos.png" alt="Hebilla de huesos" class="nuevo4">
+                </a>
+            </div>
         </div>
         <div class="masamados">
+            <h2 class="masamadostitulo">¡Más amados!</h2>
+            <div class="imagenesnuevos">
+                <a href="tienda.html">
+                    <img src="Img/brocheflor.png" alt="Broche de flor" class="amado1">
+                </a>
+                <a href="tienda.html">
+                    <img src="Img/escarapela.png" alt="escarapelas" class="amado2">
+                </a>
+                <a href="tienda.html">
+                    <img src="Img/Hebillas.png" alt="Hebillas de estrellas" class="amado3">
+                </a>
+                <a href="tienda.html">
+                    <img src="Img/Gorra.png" alt="Gorra de Argentina" class="amado4">
+                </a>
+            </div>
+        </div>
 
+        <div class="botontienda">
+            <a href="tienda.html" class="iralatienda">ir a la tienda</a>
         </div>
     </div>
+
+    <div class="about">
+        <div class="contenidoabout">
+            <h1>-Hola!</h1>
+            <p>Soy <strong>Julieta Marcon</strong> la fundadora de Cute! y mi misión es “llevar estilo a todos los
+                rincones”.</p>
+            <p>Espero poder darle toques ¡Cute! a tus dias</p>
+        </div>
+
+    </div>
+    <div class="locales">
+        <div class="localestitulo">
+            <h1>Locales</h1>
+        </div>
+        <div class="mapas">
+            <div class="mapa1">
+                <h3>Principal</h3>
+                <a
+                    href="https://www.google.com/maps/place/Peor+es+Nada,+Chimbarongo,+O'Higgins,+Chile/@-34.7813809,-71.0533418,14.25z/data=!4m6!3m5!1s0x9664f2fb44cbee0f:0x15932fa6a7614f58!8m2!3d-34.7851733!4d-71.0415701!16s%2Fg%2F122tpq3w?entry=ttu&g_ep=EgoyMDI2MDYyOS4wIKXMDSoASAFQAw%3D%3D">
+                    <img src="Img/Mapa 1.png" alt="local principal">
+                </a>
+                <p><strong>Florencio Varela 1237</strong> entre José Marmol y Bernardo de M.</p>
+            </div>
+            <div class="mapa2">
+                <h3>Secundario</h3>
+                <a
+                    href="https://www.google.com/maps/place/Peor+es+Nada,+Chimbarongo,+O'Higgins,+Chile/@-34.7813809,-71.0533418,14.25z/data=!4m6!3m5!1s0x9664f2fb44cbee0f:0x15932fa6a7614f58!8m2!3d-34.7851733!4d-71.0415701!16s%2Fg%2F122tpq3w?entry=ttu&g_ep=EgoyMDI2MDYyOS4wIKXMDSoASAFQAw%3D%3D">
+                    <img src="Img/Mapa 2.png" alt="loclsecundario">
+                </a>
+                <p><strong>Zeballos 5335</strong> Avenida Sidney</p>
+            </div>
+        </div>
+        <div class="transicion">
+            <img src="Img/Transición.png" alt="transicion de olitas">
+        </div>
+    </div>
+
+    <div class="contacto-container">
+        <div class="contactotitulo">
+            <h2>Contactame!</h2>
+        </div>
+        <form class="formulario-box" netlify>
+            <div class="fila-input">
+                <div class="campo"><label>Nombre completo</label>
+                    <input type="text" name="nombre" placeholder="nombre...">
+                </div>
+                <div class="campo"><label>Motivo</label>
+                    <input type="text" name="motivo" placeholder="¿porque?">
+                </div>
+            </div>
+
+            <div class="fila-input">
+                <div class="campo"><label>Email</label>
+                    <input type="email" name="email" placeholder="@mail.com">
+                </div>
+                <div class="campo">
+                        <label for="telefono">Telefono</label>
+                        <input type="tel" id="telefono" name="telefono" placeholder="Ej: 11 1234-5678" class="input-cute">
+                </div>
+            </div>
+
+            <div class="campo-full">
+                <label>mensaje</label>
+                <textarea name="mensaje" placeholder="Texto..."></textarea>
+            </div>
+
+            <button type="submit" class="boton-enviar">Enviar</button>
+        </form>
+    <footer>
+        <div class="redes">
+            <div class="instagram">
+                <img src="Img/instagram.png" alt="instagram">
+                <h2>@Cute.instagram</h2>
+            </div>
+            <div class="tiktok">
+                <img src="Img/tik-tok.png" alt="tiktok">
+                <h2>@Cute.tiktok</h2>
+            </div>
+            <div class="facebook">
+                <img src="Img/facebook.png" alt="facebook">
+                <h2>@Cute.facebook</h2>
+            </div>
+        </div>
+        <div class="copy">
+          Copyright © 2026 Cute! Accesories Store. Website by Lisandro Sigales • Todos los derechos reservados.
+        </div>
+
+    </footer>
+        
+    </div>
+
+
+
 
 
     <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.umd.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.autoplay.umd.js"></script>
-    
+
     <script src="script.js"></script>
 </body>
 
